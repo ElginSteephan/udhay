@@ -1,0 +1,52 @@
+.aboutSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.aboutSection .content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  line-height: 1.5;
+}
+
+.aboutSection .content h1 span {
+  color: #046bd2;
+  font-size: 2rem;
+  font-family: "Audiowide", sans-serif;
+}
+.aboutSection .content h1{
+  color: #ff6a00dc;
+}
+
+
+.aboutSection img {
+  width: 20rem;
+}
+
+
+@media (width<520px) {
+  .aboutSection {
+    flex-direction: column;
+    padding: 4rem 1rem;
+  }
+
+  .aboutSection .content {
+    width: 100%;
+  }
+
+  .aboutSection .content h1 span {
+    font-size: 2rem;
+  }
+
+  .aboutSection img {
+    width: 15rem;
+  }
+}
