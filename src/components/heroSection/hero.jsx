@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+
 import "./hero.css";
 
 function HeroBG() {
