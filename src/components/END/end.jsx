@@ -45,9 +45,6 @@ function END() {
 
         <div className="policy">
           <p>© 2024 UDHAY SHIPPING SERVICES. All rights reserved.</p>
-          <span>
-         
-          </span>
         </div>
       </footer>
     </div>
