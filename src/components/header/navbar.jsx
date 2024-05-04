@@ -11,8 +11,7 @@ function Navbar() {
       </span>
 
       <div className="link">
-        <a href="#home">Home</a>
-        <a href="#about>About</a>
+   
         {/* Replace the "Team" link with WhatsApp icon */}
         <a href="whatsapp://send?phone=+919429001570" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faWhatsapp} size="lg"  color="green"/> Contact Us{/* Adjust size here */}
